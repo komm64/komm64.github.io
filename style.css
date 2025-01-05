@@ -1,0 +1,35 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'komm64fantasy', monospace;
+    margin: 0;
+    padding: 20px;
+}
+
+@font-face {
+    font-family: 'komm64fantasy';
+    src: url('fonts/komm64fantasy-webfont.woff2') format('woff2'),
+         url('fonts/komm64fantasy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.prompt a {
+    font-family: 'komm64fantasy', monospace;
+    color: limegreen;
+    text-decoration: none;
+}
+
+.prompt a:hover {
+    text-decoration: underline;
+}
+
+.content-section {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #fff;
+}
+
+.content-section h2 {
+    margin-top: 0;
+}
