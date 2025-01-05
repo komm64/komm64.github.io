@@ -14,22 +14,32 @@ body {
     font-style: normal;
 }
 
-.prompt a {
-    font-family: 'komm64fantasy', monospace;
+.terminal {
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.terminal p {
+    margin-bottom: 10px;
+}
+
+.terminal ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.terminal li {
+    margin-bottom: 5px;
+}
+
+.terminal li a {
     color: limegreen;
     text-decoration: none;
 }
 
-.prompt a:hover {
+.terminal li a:hover {
     text-decoration: underline;
-}
-
-.content-section {
-    margin-top: 20px;
-    padding: 10px;
-    border: 1px solid #fff;
-}
-
-.content-section h2 {
-    margin-top: 0;
 }
